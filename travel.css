@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+#logo{
+    
+   width: 85px;
+   height: 80px;
+}
+#navbar{
+    position: sticky;
+    margin-top: 0px;;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 25px;
+    
+
+}
+#navbar ul:hover{
+   text-shadow: 4px 4px 4px white;
+}
+
+#navbar b{
+    text-decoration: none;
+    color: white;
+}
+#navbar::before{
+    content: " ";
+    background-color:transparent;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+  }
+  #home{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     }
+     
+#home h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: auto;
+  }
+     #home::before{
+        content: " ";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        width: 100%;
+        height: 90%;
+        opacity: 0.89;
+        background: url("backgif.gif");
+      
+        background-size: cover;
+
+     }
+
+     #serach{
+        margin-top: 40px;
+     }
+
+     .bar{
+        width: 200px;
+        height: 24px;
+        border: 2px solid;
+        border-radius: 30px;
+        margin-top: 20px;
+
+     }
+     .bar:hover{
+        box-shadow: 3px 3px 3px  blue;
+     }
+     #button{
+        width: 30px;
+        height: 30px;
+        position:absolute;
+        left: 0;
+        margin-left: 55%;
+        border: none;
+        background: none;
+        margin-top: 17px;
+        
+     }
+     .para{
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 25px;
+     }
+     #heading{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 17%;
+      font-size: 40px;
+    }
+    #main{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      
+    }
+    #hotel{
+      border: 5px solid;
+      width: 400px;
+      height: 450px; 
+      margin-left:4% ;
+      cursor: pointer;
+      transition-delay: 1s;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+
+    }
+    #hotel:hover{
+      box-shadow: 5px 5px 5px rgb(85, 79, 79);
+      transform: scale(1.1);
+     }
+    
+    .box{
+      width: 150px;
+      height: 180px;
+      margin-left: 35%;
+    }
+    .h2{
+      margin-left: 45%;
+    }
+    .para1{
+      font-size: 20px;
+      margin-left: 10%;
+    }
+    #packaging{
+      border: 5px solid;
+      width: 400px;
+      height: 450px;
+      transition-delay: 1s;
+      transition-duration: 2s;
+      transition-timing-function: linear;
+
+    }
+    #packaging:hover{
+      box-shadow: 5px 5px 5px rgb(85, 79, 79);
+      transform: scale(1.1);
+    }
+    .box1{
+      width: 150px;
+      height: 180px;
+      margin-left: 30%;
+    }
+    .h{
+      margin-left:30%;
+    }
+    .para2{
+      font-size: 20px;
+      margin-left: 10%;
+    }
+    #tour{
+      border: 5px solid;
+      width: 400px;
+      height: 450px;
+      transition-delay: 1s;
+      transition-duration: 2s;
+      transition-timing-function: linear;
+    }
+    #tour:hover{
+      box-shadow: 5px 5px 5px rgb(85, 79, 79);
+      transform: scale(1.1);
+    }
+    .box2{
+      width: 150px;
+      height: 180px;
+      margin-left:60%;
+    }
+    .he{
+
+    margin-left: 30%;
+    }
+    .para3{
+      font-size: 20px;
+      margin-left: 10%;
+    }
+    #boo{
+      font-size: 45px;
+      margin-left: 580px;
+    }
+    #span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
+    }
+    .div1{
+      margin-left: 10px;
+      transition-delay: 1s;
+      transition-duration: 2s;
+      transition-timing-function: linear;
+    }
+    .div1:hover{
+      transform: rotate(20deg);
+    }
+    .h4{
+      margin-left: 30px;
+    }
+    #us{
+      font-size: 45px;
+      margin-left: 580px;
+    }
+    #img1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      transition-delay: 1s;
+      transition-duration: 2s;
+      transition-timing-function: linear;
+    }
+    #img1:hover{
+      transform: scale(1.1);
+    }
+    #footer1{
+      border: 2px solid black;
+      background-color: black;
+    }
+    .h3{
+      color:white;
+      font-size: 20%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    
